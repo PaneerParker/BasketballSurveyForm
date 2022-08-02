@@ -1,0 +1,67 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = utf-8>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <h1 id = "title">Basketball Survey Form</h1>
+        <p id = "description">Thank you for taking the time to fill our this form</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label"> Name <input id="name" type="text" placeholder = "name" required> </label> <br>
+                <label id="email-label"> Email<input id="email" type = "email" placeholder = "email" required> </label> <br>
+                <label id="number-label"> Age <input id="number" type = "number" placeholder = "age" min = "0" max = "99"> </label> <br>
+            </fieldset>
+            <fieldset>
+                <label>Favourite side of basketball?
+                    <select id = "dropdown">
+                        <option value="">(select one)</option>
+                        <option value="1">Offense</option>
+                        <option value="2">Defense</option>
+                    </select>
+                </label> <br>
+         
+            </fieldset>   
+            <fieldset>
+                <p>Which position do you play?</p>
+                <label> <input type="radio" name="position" value="Point Guard">Point Guard</label> <br>
+                <label> <input type="radio" name="position" value = "Shooting Guard">Shooting Guard</label> <br>
+                <label> <input type="radio" name="position" value = "Small Forward">Small Forward</label> <br>
+                <label> <input type="radio" name="position" value = "Power Forward">Power Forward</label> <br>
+                <label> <input type="radio" name="position" value = "Center">Center</label> <br>
+                <label> <input type="radio" name="position" value = "None">I Don't Play Basketball</label> <br>
+            </fieldset>
+            <fieldset>
+                <p>Favorite basketball player/s? </p>
+                <label> <input type="checkbox" value = "Luka Doncic"> Luka Doncic </label> <br>
+                <label> <input type="checkbox" value = "Stephen Curry"> Stephen Curry </label> <br>
+                <label> <input type="checkbox" value = "LeBron James"> LeBron James </label> <br>
+                <label> <input type="checkbox" value = "Nikola Jokic"> Nikola Jokic </label> <br>
+                <label> <input type="checkbox" value = "Kevin Durant"> Kevin Durant </label> <br>
+                <label> <input type="checkbox" value = "Giannis Antetokounmpo"> Giannis Antetokounmpo </label> 
+
+            </fieldset>
+            <fieldset>
+                <label>Additional Comments: <br>
+                    <textarea name="Comments" rows = "3" cols = "30" placeholder="Enter comments here"></textarea>
+                </label>
+                </fieldset>
+            <input type="submit" id="submit"> 
+    
+     </form>
+     </body>
+<html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
