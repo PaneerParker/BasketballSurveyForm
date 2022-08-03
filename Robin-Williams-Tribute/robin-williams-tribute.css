@@ -1,0 +1,38 @@
+#image{
+height: auto;
+max-width: 100%;
+display: block;
+}
+
+
+#img-caption{
+    text-align: center;
+    padding: 10px;
+    font-size: 11;
+
+
+}
+
+#title{
+    text-align: center;
+    padding: 30px;
+    font-size: 36;
+  
+}
+
+#sub-title{
+    text-align: center;
+    font-size: 10;
+    
+}
+
+body{
+   background: #8a757f;
+   font-family: serif;
+
+}
+
+#robins-life{
+    text-align: center;
+
+}
