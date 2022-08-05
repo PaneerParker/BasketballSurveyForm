@@ -1,0 +1,30 @@
+#navbar{
+position: fixed;
+height: 100%;
+width: 250px;
+
+top: 15px;
+left: 0px;
+padding: 50px;
+font-family: arial;
+line-height: 2;
+color: black;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+#title{
+  text-align: center;
+}
+
+.main-section{
+  padding: 0px 250px;
+  width: 225;
+  
+
+
+
+}
